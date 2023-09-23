@@ -1,0 +1,17 @@
+.li {
+  margin-right: 30px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.tab-btn {
+  border-color: #db1c48;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 15px;
+  padding: 8px 20px 8px 20px;
+}
+
+.active-tab-btn {
+  background-color: #db1c48;
+}
