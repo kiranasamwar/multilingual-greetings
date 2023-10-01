@@ -32,6 +32,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
@@ -67,5 +69,9 @@
       "Firefox ESR",
       "not ie < 11"
     ]
+  },
+  "homepage": "https://kiranasamwar.github.io/multilingual-greetings",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
